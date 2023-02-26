@@ -1,0 +1,33 @@
+{% extends 'templates/base.html' %}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<title>
+		{% block title %}
+		PensiveDND :: Home
+		{% endblock %}
+	</title>
+</head>
+
+<body>
+{% block pagecontent %}
+	<section>
+
+		<h1>PensiveDND</h1>
+
+		<p>A safe place for members of Pensive to play tabletop fantasy games
+			together -- with roleplay and imagination, courage and deceit.
+			The possibilities here are endless, and limited only by what your mind
+			can dream up next.</p>
+
+		<p>But most-importantly, this website is not only meant to host a single
+			game, but to be a vehicle for anyone in the guild to host games for other
+			guildies, for free. See "<a href="be_a_dm">Be a DM</a>" for more details.</p>
+
+	</section>
+{% endblock %}
+
+</body>
+</html>
